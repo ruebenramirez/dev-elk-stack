@@ -12,10 +12,10 @@ docker run -d \
     --name elasticsearch \
     dockerfile/elasticsearch
 
-docker run -d \
-    -p 9888:80 \
+docker run -ti \
+    -p 80:80 \
     -e KIBANA_SECURE=false \
     --link elasticsearch:es \
     --name kibana \
-    balsamiq/docker-kibana
-
+    kibana \
+    /bin/bash
