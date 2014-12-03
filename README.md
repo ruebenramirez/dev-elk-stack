@@ -1,4 +1,4 @@
-test-elk-stack
+dev-elk-stack
 ==============
 
 run the containers
