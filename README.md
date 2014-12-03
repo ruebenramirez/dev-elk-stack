@@ -1,6 +1,8 @@
 dev-elk-stack
 ==============
 
+This repo tracks the elasticsearch tutorial [using kibana for the first time](http://www.elasticsearch.org/guide/en/kibana/current/using-kibana-for-the-first-time.html)
+
 run the containers
 ------------------
 
@@ -15,7 +17,7 @@ stack, so no need to chase down the quirkiness right now.
 
 load data
 ---------
-Then, let's load up some data:
+Now let's load up some data:
 ```
 ./2-load-up-som-data.sh
 ```
